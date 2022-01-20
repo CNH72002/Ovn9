@@ -2,6 +2,9 @@
 
 
 
+
+
+
 function range(start, end) {
   return Array(end - start + 1).fill().map((_, idx) => start + idx)
 }
@@ -18,7 +21,7 @@ const checkedArray = [];
 
 let ListEl = document.getElementById("numbers");
 let textAreaEl = document.getElementById("all");
-let buttEl = document.getElementById("myBtn");
+ let buttEl = document.getElementById("myBtn");
 buttEl.addEventListener('click', ListAllNumber);
 
 let resultDis = "";
